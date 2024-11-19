@@ -14,31 +14,32 @@ class AboutViewController: NSViewController {
     @IBOutlet var coreVersionLabel: NSTextField!
 
     lazy var clashCoreVersion: String = {
-        return Bundle.main.infoDictionary?["coreVersion"] as? String ?? "unknown"
+        return Bundle.main.infoDictionary?["coreVersion"] as? String ?? "mihomo-alpha-de19f92"
     }()
 
     lazy var commit: String = {
-        return Bundle.main.infoDictionary?["gitCommit"] as? String ?? "unknown"
+        return Bundle.main.infoDictionary?["gitCommit"] as? String ?? ""
     }()
 
     lazy var branch: String = {
-        return Bundle.main.infoDictionary?["gitBranch"] as? String ?? "unknown"
+        return Bundle.main.infoDictionary?["gitBranch"] as? String ?? ""
     }()
 
     lazy var buildTime: String = {
-        return Bundle.main.infoDictionary?["buildTime"] as? String ?? "unknown"
+        return Bundle.main.infoDictionary?["buildTime"] as? String ?? ""
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "About"
+        title = "開發者資訊"
 
         let version = AppVersionUtil.currentVersion
         let build = AppVersionUtil.currentBuild
 
         versionLabel.stringValue = "Version: \(version) (\(build))"
-        coreVersionLabel.stringValue = "Meta Core: \(clashCoreVersion)"
-        buildTimeLabel.stringValue = "\(commit)-\(branch) \(buildTime)"
+        //coreVersionLabel.stringValue = "Meta Core: \(clashCoreVersion)"
+        coreVersionLabel.stringValue = "Meta Core: v1.18.10"
+        buildTimeLabel.stringValue = "\(commit)\(branch) \(buildTime)"
     }
 
     override func viewWillAppear() {

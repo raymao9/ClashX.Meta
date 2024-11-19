@@ -37,26 +37,6 @@ class MetaPrefsViewController: NSViewController {
 		updateNeedsRestart()
 	}
 	
-	// Dashboard
-	@IBOutlet var useSwiftuiButton: NSButton!
-	@IBOutlet var useYacdButton: NSButton!
-	@IBOutlet var useXDButton: NSButton!
-	
-	@IBAction func switchDashboard(_ sender: NSButton) {
-		switch sender {
-		case useSwiftuiButton:
-			DashboardManager.shared.useSwiftUI = sender.state == .on
-		case useYacdButton:
-			ConfigManager.useYacdDashboard = sender.state == .on
-		case useXDButton:
-			ConfigManager.useYacdDashboard = sender.state == .off
-		default:
-			break
-		}
-		initDashboardButtons()
-		updateNeedsRestart()
-	}
-	
 	// Alpha Core
 	@IBOutlet var useAlphaButton: NSButton!
 	@IBOutlet var alphaVersionTextField: NSTextField!
@@ -136,9 +116,6 @@ class MetaPrefsViewController: NSViewController {
 		tunDNSTextField.stringValue = ConfigManager.metaTunDNS
 		tunDNSTextField.delegate = self
 		
-		// Dashboard
-		initDashboardButtons()
-		
 		// Alpha Core
 		useAlphaButton.state = ConfigManager.useAlphaCore ? .on : .off
 		updateProgressIndicator.isHidden = true
@@ -149,20 +126,6 @@ class MetaPrefsViewController: NSViewController {
 		versionSnapshot = alphaVersionTextField.stringValue
 		restartTextField.isHidden = true
     }
-	
-	func initDashboardButtons() {
-		let useSwiftUI = DashboardManager.shared.useSwiftUI
-		let useYacd = ConfigManager.useYacdDashboard
-		
-		useSwiftuiButton.state = useSwiftUI ? .on : .off
-		useYacdButton.state = useYacd ? .on : .off
-		useXDButton.state = useYacd ? .off : .on
-		
-		
-		useSwiftuiButton.isEnabled = true
-		useYacdButton.isEnabled = !useSwiftUI
-		useXDButton.isEnabled = !useSwiftUI
-	}
 	
 	func setAlphaVersion() {
 		if let alphaCorePath = Paths.alphaCorePath(),
