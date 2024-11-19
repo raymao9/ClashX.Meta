@@ -2,10 +2,11 @@ name: ClashX
 
 on:
   push:
+    branches:
+      - master
+      - meta
+      - meta-dev
     tags: [ v* ]
-  workflow_dispatch:
-    inputs:
-      logLevel:
 
 jobs:
   build:
