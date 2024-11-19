@@ -1,11 +1,11 @@
 /* No comment provided by engineer. */
-"Active Connections" = "活動連線";
+"Active Connections" = "已建立的連線";
 
 /* No comment provided by engineer. */
-"Add a remote config" = "添加託管配置文件";
+"Add a remote config" = "新增訂閱";
 
 /* No comment provided by engineer. */
-"Add a remote control config" = "添加遠程控制器配置";
+"Add a remote control config" = "新增遙控設定";
 
 /* No comment provided by engineer. */
 "All Clients" = "所有客戶端";
@@ -14,37 +14,37 @@
 "All Hosts" = "所有主機名";
 
 /* No comment provided by engineer. */
-"Apply and Quit" = "應用並退出";
+"Apply and Quit" = "套用並結束";
 
 /* No comment provided by engineer. */
-"Benchmark" = "延遲測速";
+"Benchmark" = "節點測速";
 
 /* No comment provided by engineer. */
-"Benchmark Finished!" = "延遲測速完成";
+"Benchmark Finished!" = "測速完成";
 
 /* No comment provided by engineer. */
-"Benchmark has begun, please wait." = "延遲測速開始，請稍候";
+"Benchmark has begun, please wait." = "測速開始，請稍候";
 
 /* No comment provided by engineer. */
-"Benchmark is processing, please wait." = "延遲測速正在進行中，請稍候。";
+"Benchmark is processing, please wait." = "正在測速中，請稍候。";
 
 /* No comment provided by engineer. */
 "Cancel" = "取消";
 
 /* No comment provided by engineer. */
-"ClashX fail to create ~/.config/clash folder. Please check privileges or manually create folder and restart ClashX." = "ClashX 創建 ~/.config/clash 文件夾失敗，請檢查權限設定或者手動創建文件夾後重啟 ClashX";
+"ClashX fail to create ~/.config/clash folder. Please check privileges or manually create folder and restart ClashX." = "無法新增 ~/.config/clash 資料夾，請檢查權限設定或者手動新增資料夾，然後重開 ClashX.Meta";
 
 /* No comment provided by engineer. */
-"ClashX needs to install/update a helper tool with administrator privileges, otherwise ClashX won't be able to configure system proxy." = "ClashX 需要使用管理員權限安裝/更新一個幫助程序，否則 ClashX 將無法設定系統代理。";
+"ClashX needs to install/update a helper tool with administrator privileges, otherwise ClashX won't be able to configure system proxy." = "ClashX.Meta 需要安裝/更新輔助程式才能接管您的 VPN";
 
 /* No comment provided by engineer. */
-"ClashX Start Error!" = "ClashX 啟動出錯";
+"ClashX Start Error!" = "ClashX.Meta 啟動錯誤";
 
 /* No comment provided by engineer. */
-"ClashX use a daemon helper to setup your system proxy. Please enable ClashX in the Login Items under the Allow in the Background section and relaunch the app" = "ClashX需要通過後台Daemon進程來設定系統代理，請在\"系統偏好設定->登錄項->允許在後台 中\"允許ClashX";
+"ClashX use a daemon helper to setup your system proxy. Please enable ClashX in the Login Items under the Allow in the Background section and relaunch the app" = "ClashX.Meta 需要在背景中作業，請在【系統偏好設定->登入項目->允許在背景中】授予相關權限。";
 
 /* No comment provided by engineer. */
-"Click OK to quit the app and apply change." = "確認清理併退出軟件";
+"Click OK to quit the app and apply change." = "套用設定並結束應用程式";
 
 /* No comment provided by engineer. */
 "Client" = "客戶端";
@@ -53,34 +53,34 @@
 "Close Connection" = "關閉連線";
 
 /* No comment provided by engineer. */
-"Config file have been changed" = "配置文件已被修改";
+"Config file have been changed" = "訂閱內容已變更";
 
 /* No comment provided by engineer. */
-"Config loading Fail!" = "配置文件加載失敗";
+"Config loading Fail!" = "載入訂閱失敗";
 
 /* No comment provided by engineer. */
-"Connecting" = "連接中";
+"Connecting" = "連線中";
 
 /* No comment provided by engineer. */
-"Copy Shell Command" = "複製終端代理命令";
+"Copy Shell Command" = "複製終端機代理指令";
 
 /* No comment provided by engineer. */
-"Copy Shell Command (External)" = "複製終端代理命令(外部IP)";
+"Copy Shell Command (External)" = "複製終端機代理指令（外部）";
 
 /* No comment provided by engineer. */
-"Custom your GEOIP MMDB download address." = "自定義下載地址";
+"Custom your GEOIP MMDB download address." = "自訂下載連結";
 
 /* No comment provided by engineer. */
 "Date" = "時間";
 
 /* No comment provided by engineer. */
-"Details" = "查看詳情";
+"Details" = "連線狀態";
 
 /* No comment provided by engineer. */
 "Direct" = "直連";
 
 /* No comment provided by engineer. */
-"Direct Mode" = "直接連接";
+"Direct Mode" = "直連模式";
 
 /* No comment provided by engineer. */
 "Done" = "完成";
@@ -95,7 +95,7 @@
 "Download speed" = "下載速率";
 
 /* No comment provided by engineer. */
-"Edit in Text Mode" = "編輯配置";
+"Edit in Text Mode" = "編輯訂閱";
 
 /* No comment provided by engineer. */
 "fail" = "失敗";
@@ -113,7 +113,7 @@
 "Global" = "全局";
 
 /* No comment provided by engineer. */
-"Global Mode" = "全局連接";
+"Global Mode" = "全局模式";
 
 /* No comment provided by engineer. */
 "Host" = "主機名";
@@ -128,13 +128,13 @@
 "iCloud not available" = "iCloud 不可用";
 
 /* No comment provided by engineer. */
-"If you can not find ClashX in the settings, you can try reset daemon" = "如果在設定裡沒找到ClashX,可以嘗試重置守護程序";
+"If you can not find ClashX in the settings, you can try reset daemon" = "如果您在設定項目中沒找到 ClashX.Meta，可以嘗試重置守護程序";
 
 /* No comment provided by engineer. */
 "Install" = "安裝";
 
 /* No comment provided by engineer. */
-"Invalid input" = "輸入不合法";
+"Invalid input" = "輸入內容無效";
 
 /* No comment provided by engineer. */
 "Legacy Install" = "傳統安裝";
@@ -143,97 +143,97 @@
 "Load Balance" = "負載均衡";
 
 /* No comment provided by engineer. */
-"Local Clients" = "本地程式";
+"Local Clients" = "本機程式";
 
 /* No comment provided by engineer. */
-"Need to Restart the ClashX to Take effect, Please start clashX manually" = "需要重啟ClashX生效，請手動啟動ClashX";
+"Need to Restart the ClashX to Take effect, Please start clashX manually" = "請重開 ClashX.Meta 以使設定值生效";
 
 /* No comment provided by engineer. */
 "Never" = "從未";
 
 /* No comment provided by engineer. */
-"Never show again" = "不再提示";
+"Never show again" = "不再顯示";
 
 /* No comment provided by engineer. */
 "OK" = "確定";
 
 /* No comment provided by engineer. */
-"Open Connection Details" = "打開連接查看器";
+"Open Connection Details" = "檢視連線狀態";
 
 /* No comment provided by engineer. */
-"Open Dashboard" = "打開控制台";
+"Open Dashboard" = "進入控制台";
 
 /* No comment provided by engineer. */
-"Open Log" = "打開日誌";
+"Open Log" = "瀏覽日誌記錄";
 
 /* No comment provided by engineer. */
-"Open Menu" = "打開菜單";
+"Open Menu" = "打開選單";
 
 /* No comment provided by engineer. */
-"Open System Login Item Setting" = "打開系統登錄項設定";
+"Open System Login Item Setting" = "檢視系統登入項目設定";
 
 /* No comment provided by engineer. */
-"Please enable the location service for ClashX to detect your current WiFi network's SSID name and provide the auto-suspend services." = "請允許 ClashX 使用定位服務，以獲取您目前連接的 WiFi 名稱，並提供按需暫停服務。";
+"Please enable the location service for ClashX to detect your current WiFi network's SSID name and provide the auto-suspend services." = "請授權 ClashX.Meta 使用定位服務，以獲取您目前連接的 WiFi 名稱。";
 
 /* No comment provided by engineer. */
-"Ports Open Fail, Please try to restart ClashX" = "端口打開失敗，請嘗試重啟ClashX";
+"Ports Open Fail, Please try to restart ClashX" = "Port 不通，請重開 ClashX.Meta";
 
 /* No comment provided by engineer. */
 "Prelease" = "Prelease";
 
 /* No comment provided by engineer. */
-"Proxy Mode" = "出站模式";
+"Proxy Mode" = "路由模式";
 
 /* No comment provided by engineer. */
-"Proxy settings are changed by another process. ClashX is no longer the default system proxy." = "代理設定被另一個程式更改。ClashX 不再是默認的系統代理";
+"Proxy settings are changed by another process. ClashX is no longer the default system proxy." = "由於您開啟了其他的 VPN，ClashX.Meta 的系統代理已失效。";
 
 /* No comment provided by engineer. */
-"Quit" = "退出";
+"Quit" = "結束應用程式";
 
 /* No comment provided by engineer. */
-"Quit ClashX?" = "退出 ClashX?";
+"Quit ClashX?" = "確定要結束 ClashX.Meta 嗎？";
 
 /* No comment provided by engineer. */
 "Recent Connections" = "最近連線";
 
 /* No comment provided by engineer. */
-"Reduce alerts if notification permission is disabled" = "在通知權限關閉時減少提示彈窗";
+"Reduce alerts if notification permission is disabled" = "在通知權限關閉時降低跳出視窗頻率";
 
 /* No comment provided by engineer. */
-"Reload Config Fail" = "重新加載配置失敗";
+"Reload Config Fail" = "重載訂閱失敗";
 
 /* No comment provided by engineer. */
-"Reload Config Succeed" = "重新加載配置成功";
+"Reload Config Succeed" = "重載訂閱成功";
 
 /* No comment provided by engineer. */
-"Remote Config Format Error" = "遠端配置格式錯誤";
+"Remote Config Format Error" = "訂閱格式有誤";
 
 /* No comment provided by engineer. */
-"Remote Config Update" = "遠程配置更新";
+"Remote Config Update" = "更新訂閱";
 
 /* No comment provided by engineer. */
-"Remote Config Update Fail" = "遠程配置更新失敗";
+"Remote Config Update Fail" = "更新訂閱失敗";
 
 /* No comment provided by engineer. */
 "Requests" = "請求";
 
 /* No comment provided by engineer. */
-"Reset Daemon" = "重置守護進程";
+"Reset Daemon" = "重置守護程序";
 
 /* No comment provided by engineer. */
-"ReTest" = "重測";
+"ReTest" = "重新測試";
 
 /* No comment provided by engineer. */
-"Rule" = "規則";
+"Rule" = "分流";
 
 /* No comment provided by engineer. */
-"Rule Mode" = "規則模式";
+"Rule Mode" = "分流模式";
 
 /* No comment provided by engineer. */
 "Script" = "腳本";
 
 /* No comment provided by engineer. */
-"Should be a least 1 hour" = "應該至少 1 小時";
+"Should be a least 1 hour" = "至少 1 小時";
 
 /* No comment provided by engineer. */
 "Sources" = "來源";
@@ -254,31 +254,34 @@
 "Success!" = "成功！";
 
 /* No comment provided by engineer. */
-"System Proxy" = "系統代理";
+"Tun Mode" = "啟用/關閉 Tun 模式";
 
 /* No comment provided by engineer. */
-"System Proxy Changed" = "系統代理已更改";
+"System Proxy" = "啟用/關閉 系統代理";
 
 /* No comment provided by engineer. */
-"Tap to reload config" = "點擊重新加載配置";
+"System Proxy Changed" = "系統代理已變更";
 
 /* No comment provided by engineer. */
-"Testing" = "測試中";
+"Tap to reload config" = "點按以重載訂閱";
 
 /* No comment provided by engineer. */
-"The active connections will be interrupted." = "活躍的連接將被中斷。";
+"Testing" = "正在測速";
 
 /* No comment provided by engineer. */
-"The remote config name is duplicated" = "遠端配置名稱重複";
+"The active connections will be interrupted." = "已建立的連線將被中止。";
 
 /* No comment provided by engineer. */
-"The status icon is coverd or hide by other app." = "狀態圖標被其他應用覆蓋或隱藏";
+"The remote config name is duplicated" = "訂閱名稱重複了";
 
 /* No comment provided by engineer. */
-"This version of ClashX contains a break change due to clash core 1.0 released. Check if your config is not working properly." = "此版本的 ClashX 包含因 clash core 1.0 發布而導致的中斷更改。請檢查您的配置是否無法正常工作";
+"The status icon is coverd or hide by other app." = "狀態列圖示被其他程式取代或隱藏";
 
 /* No comment provided by engineer. */
-"total: %d, success: %d" = "共計: %d, 成功: %d";
+"This version of ClashX contains a break change due to clash core 1.0 released. Check if your config is not working properly." = "此版本的 ClashX.Meta 包含自 Clash Core 1.0 釋出後的重大核心功能變化，請檢查您的設定檔是否有異常。";
+
+/* No comment provided by engineer. */
+"total: %d, success: %d" = "總計: %d, 成功: %d";
 
 /* No comment provided by engineer. */
 "Type" = "類型";
@@ -287,13 +290,13 @@
 "Unknown" = "未知";
 
 /* No comment provided by engineer. */
-"Update external resource complete" = "更新外部資源完成";
+"Update external resource complete" = "外部資源更新完成";
 
 /* No comment provided by engineer. */
-"Update GEOIP Database" = "更新 GEOIP 數據庫";
+"Update GEOIP Database" = "更新 GeoIP 資料庫";
 
 /* No comment provided by engineer. */
-"Update remote config update interval" = "更新遠程配置更新間隔";
+"Update remote config update interval" = "設定自動更新訂閱的頻率";
 
 /* No comment provided by engineer. */
 "Updating" = "更新中";
@@ -305,4 +308,4 @@
 "Upload speed" = "上傳速率";
 
 /* No comment provided by engineer. */
-"Use reload config to try reconnect." = "使用重新加載配置嘗試重新連接";
+"Use reload config to try reconnect." = "重載訂閱以重新連線";

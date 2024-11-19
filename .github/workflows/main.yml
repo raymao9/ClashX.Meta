@@ -2,10 +2,12 @@ name: ClashX
 
 on:
   push:
+    branches:
+      - master
+      - meta
+      - meta-dev
+      - zh_TW
     tags: [ v* ]
-  workflow_dispatch:
-    inputs:
-      logLevel:
 
 jobs:
   build:
@@ -18,19 +20,6 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-
-    - name: download meta core
-      uses: robinraju/release-downloader@v1.10
-      with:
-        repository: 'MetaCubeX/mihomo'
-        tag: "v1.18.10"
-        fileName: ".*darwin.*64-v.*.gz"
-
-        # releaseId: "62870807"
-        # fileName: ".*darwin.*64-alpha.*.gz"
-        
-        out-file-path: "clash.meta"
-        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: build infos
       run: |
@@ -66,38 +55,6 @@ jobs:
       uses: actions/upload-artifact@v4
       if: "!startsWith(github.ref, 'refs/tags/')"
       with:
-        name: "ClashX Meta.zip"
+        name: "ClashX Meta"
         path: "*.zip"
-
-    - name: load sparkle-repo
-      uses: actions/checkout@v4
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        ref: sparkle
-        path: 'sparkle-repo'
-
-    - name: update sparkle-repo
-      if: startsWith(github.ref, 'refs/tags/')
-      run: |
-        cp "ClashX Meta.zip" "sparkle-repo/ClashX Meta $GITHUB_REF_NAME.zip"
-        
-        brew install sparkle
-        echo '${{ secrets.ED_KEY }}' | $(brew --prefix)/Caskroom/sparkle/2.*/bin/generate_appcast sparkle-repo --ed-key-file -
-        
-        cd sparkle-repo
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add -A
-        git commit -m $GITHUB_REF_NAME
-        git push origin sparkle
-
-    - name: upload build to github
-      uses: softprops/action-gh-release@v2
-      if: startsWith(github.ref, 'refs/tags/')
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        generate_release_notes: true
-        files: |
-          ClashX Meta.zip
 

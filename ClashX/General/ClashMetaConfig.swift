@@ -12,7 +12,8 @@ class ClashMetaConfig: NSObject {
     struct Config: Codable {
         var externalUI: String? = {
 			var subpath = "dashboard/"
-			subpath += ConfigManager.useYacdDashboard ? "yacd" : "xd"
+			//subpath += ConfigManager.useYacdDashboard ? "yacd" : "xd"
+            subpath += ConfigManager.useYacdDashboard ? "yacd" : "yacd"
 			
             guard let htmlPath = Bundle.main.path(forResource: "index", ofType: "html", inDirectory: subpath) else {
                 return nil
@@ -87,7 +88,9 @@ class ClashMetaConfig: NSObject {
             }
 
             if port == nil && mixedPort == nil {
-                mixedPort = 7890
+                port = 1087
+                socksPort = 1080
+                //mixedPort = 7890
             }
 			
 			if let urls = yaml[keys.geoxUrl.rawValue] as? [String: String] {

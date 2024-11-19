@@ -5,7 +5,6 @@ geosite.dat
 Carthage
 ClashX.a
 ClashX.h
-ClashX/Resources/dashboard
 ClashX.app
 *.dmg
 **/xcuserdata/
@@ -20,9 +19,11 @@ fastlane/report.xml
 ClashX/Resources/Country.mmdb.gz
 ClashX/Resources/geoip.dat.gz
 ClashX/Resources/geosite.dat.gz
+ClashX/Resources/dashboard
 .bundle/config
 ClashX/Resources/com.metacubex.ClashX.ProxyConfigHelper.*
 clash.meta
 *.app/**
 ClashX.app.dSYM.zip
+_build
 build_derived_data

@@ -50,8 +50,8 @@ class ClashProcess: NSObject {
 		Logger.log("Get launchPath")
 		
 		guard let alphaCorePath = Paths.alphaCorePath(),
-			  let corePath = Paths.defaultCorePath() else {
-			return (nil, "Paths error")
+            let corePath = Paths.defaultCorePath() else {
+                return (nil, "Paths error")
 		}
 		
 		// alpha core
@@ -83,9 +83,10 @@ class ClashProcess: NSObject {
 		if validateDefaultCore(md5) {
 			return (corePath.path, nil)
 		} else {
-			Logger.log("Failure to verify the internal Meta Core.")
-			Logger.log(corePath.path)
-			return (nil, "Failure to verify the internal Meta Core.\nDo NOT replace core file in the resources folder.")
+            return (corePath.path, nil)
+			//Logger.log("Failure to verify the internal Meta Core.")
+			//Logger.log(corePath.path)
+			//return (nil, "Failure to verify the internal Meta Core.\nDo NOT replace core file in the resources folder.")
 		}
 	}()
 	

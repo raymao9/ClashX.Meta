@@ -71,7 +71,7 @@
 "Copy Shell Command" = "复制终端代理命令";
 
 /* No comment provided by engineer. */
-"Copy Shell Command (External)" = "复制终端代理命令(外部IP)";
+"Copy Shell Command (External)" = "复制终端代理命令（外部 IP）";
 
 /* No comment provided by engineer. */
 "Continue" = "继续";
@@ -294,6 +294,9 @@
 
 /* No comment provided by engineer. */
 "System Proxy" = "设置系统代理";
+
+/* No comment provided by engineer. */
+"Tun Mode" = "Tun 模式";
 
 /* No comment provided by engineer. */
 "System Proxy Changed" = "系统代理设置已修改";
