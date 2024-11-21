@@ -11,7 +11,7 @@
 "Add a remote control config" = "添加远程控制器配置";
 
 /* No comment provided by engineer. */
-"Alpha Meta core Warning" = "如果你不知道你在做什么, 请绝对不要打开这个开关.\n在 'su' 权限下运行未经验证的 Meta 核心, 可能损坏你的 mac.";
+"Alpha Meta core Warning" = "如果你不知道你在做什么, 请绝对不要打开这个开关\n在 'su' 权限下运行未经验证的 Meta 核心，可能损坏你的 Mac";
 
 /* No comment provided by engineer. */
 "All Clients" = "所有客户端";
@@ -38,16 +38,16 @@
 "Cancel" = "取消";
 
 /* No comment provided by engineer. */
-"ClashX fail to create ~/.config/clash.meta folder. Please check privileges or manually create folder and restart ClashX." = "ClashX 创建 ~/.config/clash.meta 文件夹失败，请检查权限设置或者手动创建文件夹后重启 ClashX";
+"ClashX fail to create ~/.config/clash.meta folder. Please check privileges or manually create folder and restart ClashX." = "创建 ~/.config/clash.meta 文件夹失败，请检查权限设置或者手动创建文件夹后重启 ClashX.Meta";
 
 /* No comment provided by engineer. */
-"ClashX needs to install/update a helper tool with administrator privileges, otherwise ClashX won't be able to configure system proxy." = "ClashX 需要使用管理员权限安装/更新一个帮助程序，否则 ClashX 将无法设置系统代理。";
+"ClashX needs to install/update a helper tool with administrator privileges, otherwise ClashX won't be able to configure system proxy." = "ClashX.Meta 需要使用管理员权限安装/更新一个帮助程序，否则 ClashX.Meta 将无法设置系统代理。";
 
 /* No comment provided by engineer. */
-"ClashX Start Error!" = "ClashX 启动出错";
+"ClashX Start Error!" = "ClashX.Meta 启动出错";
 
 /* No comment provided by engineer. */
-"ClashX use a daemon helper to setup your system proxy. Please enable ClashX in the Login Items under the Allow in the Background section and relaunch the app" = "ClashX需要通过后台Daemon进程来设置系统代理，请在\"系统偏好设置->登录项->允许在后台 中\"允许ClashX";
+"ClashX use a daemon helper to setup your system proxy. Please enable ClashX in the Login Items under the Allow in the Background section and relaunch the app" = "ClashX.Meta 需要通过后台程来设置系统代理，请在【系统偏好设置->登录项->允许在后台】中允许 ClashX.Meta";
 
 /* No comment provided by engineer. */
 "Click OK to quit the app and apply change." = "确认清理并退出软件";
@@ -80,7 +80,7 @@
 "Custom your GEOIP MMDB download address." = "自定义下载地址";
 
 /* No comment provided by engineer. */
-"Decode current config failed." = "无法解析当前的配置文件.";
+"Decode current config failed." = "无法解析当前的配置文件";
 
 /* No comment provided by engineer. */
 "Date" = "时间";
@@ -152,7 +152,7 @@
 "iCloud not available" = "iCloud 不可用";
 
 /* No comment provided by engineer. */
-"If you can not find ClashX in the settings, you can try reset daemon" = "如果在设置里没找到ClashX,可以尝试重置守护程序";
+"If you can not find ClashX in the settings, you can try reset daemon" = "如果在设置里没找到 ClashX.Meta，可以尝试重置守护程序";
 
 /* No comment provided by engineer. */
 "Install" = "安装";
@@ -170,7 +170,7 @@
 "Local Clients" = "本地程序";
 
 /* No comment provided by engineer. */
-"Need to Restart the ClashX to Take effect, Please start clashX manually" = "需要重启ClashX生效，请手动启动ClashX";
+"Need to Restart the ClashX to Take effect, Please start clashX manually" = "需要重启 ClashX.Meta 生效，请手动重启 ClashX.Meta";
 
 /* No comment provided by engineer. */
 "Never" = "从未";
@@ -206,10 +206,13 @@
 "Open github release page to download " = "打开 GitHub Release 下载 ";
 
 /* No comment provided by engineer. */
-"Please enable the location service for ClashX to detect your current WiFi network's SSID name and provide the auto-suspend services." = "请允许ClashX使用定位服务来获取当前所连接的WiFi名称从而提供按需暂停服务。";
+"Please enable the location service for ClashX to detect your current WiFi network's SSID name and provide the auto-suspend services." = "请允许 ClashX.Meta 使用定位服务来获取当前所连接的 WiFi 名称从而提供按需暂停服务。";
 
 /* No comment provided by engineer. */
-"Ports Open Fail, Please try to restart ClashX" = "端口打开失败，请尝试重启ClashX";
+"Ports Open Fail, Please try to restart ClashX" = "端口打开失败，请尝试重启 ClashX.Meta";
+
+/* No comment provided by engineer. */
+"Edit Config" = "编辑配置";
 
 /* No comment provided by engineer. */
 "Prelease" = "Prelease";
@@ -218,13 +221,13 @@
 "Proxy Mode" = "出站模式";
 
 /* No comment provided by engineer. */
-"Proxy settings are changed by another process. ClashX is no longer the default system proxy." = "系统代理设置已被另一个进程修改，ClashX不再是系统默认代理";
+"Proxy settings are changed by another process. ClashX is no longer the default system proxy." = "系统代理设置已被另一个进程修改，ClashX.Meta 不再是系统默认代理";
 
 /* No comment provided by engineer. */
 "Quit" = "退出";
 
 /* No comment provided by engineer. */
-"Quit ClashX?" = "退出ClashX?";
+"Quit ClashX?" = "退出 ClashX.Meta？";
 
 /* No comment provided by engineer. */
 "Recent Connections" = "最近连接";
@@ -266,7 +269,7 @@
 "Script" = "脚本";
 
 /* No comment provided by engineer. */
-"Should be a least 1 hour" = "至少需要1小时间隔";
+"Should be a least 1 hour" = "至少需要 1 小时间隔";
 
 /* No comment provided by engineer. */
 "Some thing failed." = "发生了一些错误.";
@@ -278,7 +281,7 @@
 "Stable" = "Stable";
 
 /* No comment provided by engineer. */
-"Start Meta Fail!" = "打开Meta 失败!";
+"Start Meta Fail!" = "打开 Meta 失败!";
 
 /* No comment provided by engineer. */
 "Status" = "状态";
@@ -314,10 +317,10 @@
 "The remote config name is duplicated" = "托管配置文件名称重复";
 
 /* No comment provided by engineer. */
-"The status icon is coverd or hide by other app." = "菜单栏图标被刘海屏遮挡或者被其他app隐藏，请检查菜单栏状态。";
+"The status icon is coverd or hide by other app." = "菜单栏图标被刘海屏遮挡或者被其他 APP 隐藏，请检查菜单栏状态。";
 
 /* No comment provided by engineer. */
-"This version of ClashX contains a break change due to clash core 1.0 released. Check if your config is not working properly." = "由于Clash Core发布1.0版本，使用此版本的 ClashX 可能需要更新配置内容\n前往 https://github.com/Dreamacro/clash/wiki/breaking-changes-in-1.0.0 查看详情";
+"This version of ClashX contains a break change due to clash core 1.0 released. Check if your config is not working properly." = "由于 Clash Core 发布 1.0 版本，使用此版本的 ClashX.Meta 可能需要更新配置内容。";
 
 /* No comment provided by engineer. */
 "Update All Providers" = "更新所有 Providers";
@@ -341,7 +344,7 @@
 "Update external resource complete" = "更新外部资源完成";
 
 /* No comment provided by engineer. */
-"Update GEOIP Database" = "更新IP数据库";
+"Update GEOIP Database" = "更新 IP 数据库";
 
 /* No comment provided by engineer. */
 "Update remote config update interval" = "远程配置自动更新间隔";
